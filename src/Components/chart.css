@@ -1,0 +1,123 @@
+.chartMain{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+    
+}
+.chart1{
+
+}
+.retirementIncome{
+    color: #2049dc;
+    font-size: smaller;
+    line-height: 0px;
+}
+.startingYear{
+    font-size: larger;
+    line-height: 0px;
+}
+.lightSmall{
+    color: grey;
+    font-size: smaller;
+}
+.lightUp{
+    font-size: larger;
+    font-weight: 800;
+}
+.lineStyle{
+    
+    
+    width: 10rem;
+    background-color: #2049dc;
+    height: .1rem;
+
+}
+
+
+.chart2{
+    display: flex;
+    justify-content: space-between;
+}
+.chart2MR{
+    display: flex;
+    justify-content: space-between;
+}
+.chart3{
+    display: flex;
+    flex-direction: column;
+}
+.chart4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
+}
+.chart5{
+   line-height:2px; 
+}
+.howDo{
+    font-size: larger;
+}
+.theseNumbers{
+    font-size: smaller;
+    color: grey;
+}
+
+.chart6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.chart6left{
+    width:100%;
+}
+
+
+.dropDownStyleNone{
+    border: none;
+}
+
+
+.val78{
+    position: relative;
+    bottom: 4rem;
+    left: 1.3rem;
+    font-weight: 800;
+}
+.val95{
+    position: relative;
+    bottom: 4rem;
+    left: 1.3rem;
+    font-weight: 800;
+    
+}
+.val59{
+    position: relative;
+    bottom: 4rem;
+    left: 1.3rem;
+    font-weight: 800;
+}
+.avgP{
+    
+}
+.chart6Right{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    
+
+}
+
+
+.chart6RightTop{
+    display: flex;
+    justify-content: space-around;
+    height: 9vh;
+   
+}
+.chart6RightBottom{
+    display:flex;
+    justify-content: space-around;
+    
+}

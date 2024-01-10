@@ -1,0 +1,365 @@
+.home{
+    display:flex;
+    flex-direction: row;
+}
+@media (max-width:480px) {
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        height: 4vh;
+        width:100%;
+         font-size: small;
+        position: fixed;
+        transition: bottom 0.3s;
+        
+        bottom: 0;
+        z-index: 1;
+       
+        justify-content: space-evenly;
+        
+
+
+    }
+    .logo{
+        display: none;
+    }
+    .signOut{
+        display: none;
+    }
+    
+    .topNav{
+        display: flex;
+        
+        justify-content: space-around;
+       gap:2rem
+    
+
+    }
+    .search{
+        
+    }
+    .bell{
+        position:fixed;
+        top: 1rem;
+        background-color: rgb(250,250,250);;
+        z-index: 1;
+        right: 4rem;
+
+        
+    }
+    .bell i{
+        font-size: medium;
+       
+    }
+    .middleNav{
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+       
+        
+
+    }
+    .bottomNav{
+        display: flex;
+        flex-direction: row;
+        
+        margin-top: 0;
+        gap: 4rem;
+
+    }
+    .homeLink{
+        
+    margin: 0;
+    height: 2vh;
+    padding: 1rem;
+    
+       
+
+    }
+    .homeLink i{
+        font-size: 1rem;
+        
+    }
+    .userCard{
+      width: 480px;
+      padding: 0%;
+      
+      
+    }
+    .profileDetails{
+        margin-top: 5rem ;
+    }
+    .userDp img{
+        border-radius: 5rem;
+        width: 20vw;
+        
+     }
+     .accountDetails{
+        background-color: rgb(234, 232, 229);
+        border-radius: .5rem;
+        padding: 1rem;
+        width: 50vw;
+     }
+     .contribution{
+        display: none;;
+     }
+     .m2m3{
+        display: flex;
+        justify-content: space-between;
+     }
+     .buttonIwant{
+        margin-top: 1rem;
+        width: 50vw;
+       
+    }
+    .recentTransactions{
+        background-color: rgb(234, 232, 229);
+        border-radius: .5rem;
+        padding: 1rem;
+        width: 50vw;
+
+    }
+    .transfer3 ,.transfer2, .hr2 ,.hr3{
+        display: none;
+
+    }
+    .fontOne{
+        font-size:.9rem;
+    }
+    .chart2{
+        flex-direction: column;
+    }
+    .chart2MR{
+        display: flex;
+        justify-content: space-between;
+    }
+    .chart2Left hr{
+        width: 100%;
+        background-color: #2049dc;
+          height: .03rem;
+    }
+    .chart3{
+        margin-top: 2rem;
+    }
+    .chart4 svg{
+        width: 70%;
+        
+    }
+    .chart6 {
+     
+        flex-direction: column;
+        
+        
+    }
+    
+    .chart6left{
+        justify-content: space-around;
+       
+    }
+    .updateButton{
+        width: 100%;
+    }
+    .viewHelp{
+        display: none;
+    }
+     .vl{
+        display: none;
+    }
+    .quest{
+        display: none;
+    }
+    
+
+    }
+
+
+
+
+    /* for tablet */
+
+    @media (max-width:768px) {
+
+        .home{
+            display: flex;
+            flex-direction: column;
+        }
+        nav{
+            display: flex;
+            flex-direction: row;
+            height: 10vh;
+            width:100%;
+             font-size: small;
+            position: fixed;
+            transition: bottom 0.3s;
+            
+            bottom: 0;
+            z-index: 1;
+           
+            justify-content: space-evenly;
+            
+    
+    
+        }
+        .logo{
+            display: none;
+        }
+        .signOut{
+            display: none;
+        }
+        
+        .topNav{
+            display: flex;
+            
+            justify-content: space-around;
+           gap:2rem
+        
+    
+        }
+        .search{
+            
+        }
+        .bell{
+            position:fixed;
+            top: 1rem;
+            background-color: rgb(250,250,250);;
+            z-index: 1;
+            right: 4rem;
+    
+            
+        }
+        .bell i{
+            font-size: medium;
+           
+        }
+        .middleNav{
+            display: flex;
+            flex-direction: row;
+            gap: 4rem;
+           
+            
+    
+        }
+        .bottomNav{
+            display: flex;
+            flex-direction: row;
+            
+            margin-top: 0;
+            gap: 4rem;
+    
+        }
+        .homeLink{
+            
+        margin: 0;
+        height: 2vh;
+        padding: 1rem;
+        
+           
+    
+        }
+        .homeLink i{
+            font-size: 1rem;
+            
+        }
+        .userCard{
+          width: 100%;
+          padding: 0%;
+          
+          
+        }
+        .profileDetails{
+            margin-top: 5rem ;
+        }
+        .userDp img{
+            border-radius: 5rem;
+            width: 20vw;
+            
+         }
+         .accountDetails{
+            background-color: rgb(234, 232, 229);
+            border-radius: .5rem;
+            padding: 1rem;
+            width: 50vw;
+         }
+         .contribution{
+            display: none;;
+         }
+         .m2m3{
+            display: flex;
+            justify-content: space-between;
+         }
+         .buttonIwant{
+            margin-top: 1rem;
+            width: 50vw;
+           
+        }
+        .recentTransactions{
+            background-color: rgb(234, 232, 229);
+            border-radius: .5rem;
+            padding: 1rem;
+            width: 50vw;
+    
+        }
+        .transfer3 ,.transfer2, .hr2 ,.hr3{
+            display: none;
+    
+        }
+        .fontOne{
+            font-size:.9rem;
+        }
+        .chart2{
+            flex-direction: column;
+        }
+        .chart2MR{
+            display: flex;
+            justify-content: space-between;
+        }
+        .chart2Left hr{
+            width: 100%;
+            background-color: #2049dc;
+              height: .03rem;
+        }
+        .chart3{
+            margin-top: 2rem;
+        }
+        
+        
+        .chart6 {
+         
+            flex-direction: column;
+            
+            
+        }
+        
+        .chart6left{
+            justify-content: space-around;
+           
+        }
+        .updateButton{
+            width: 100%;
+        }
+        .viewHelp{
+            display: none;
+        }
+         .vl{
+            display: none;
+        }
+        .quest{
+            display: none;
+        }
+
+    }
+
+    /* for laptop */
+
+    @media (max-width:1024px){
+        .home{
+            width: 100%;
+            display: flex;
+        }
+       
+
+    }

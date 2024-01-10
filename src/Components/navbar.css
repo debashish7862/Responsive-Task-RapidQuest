@@ -1,0 +1,58 @@
+nav{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+   background-color:white;
+    align-items: center;
+}
+
+.topNav{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    width: 5vw;
+    height: 10vh;
+}
+.middleNav{
+    display: flex;
+    flex-direction: column;
+   
+    gap: 3vh;
+    
+}
+
+.homeLink{
+    background-color:rgb(66,66,223);
+    border-radius: .3rem;
+    width: 2.vw;
+    color: white;
+    padding: 1rem;
+    margin-top: 11vh;
+    
+}
+.homeLink i{
+    color: white;
+}
+
+
+.bottomNav{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin-top: 30vh;
+    gap: 3vh;
+}
+button{
+    border: none;
+    background-color: white;
+    
+}
+i{
+   font-size: 4vh;
+   color: grey;
+}
+@media only screen and (max-width: 1440px) {
+    
+  }
